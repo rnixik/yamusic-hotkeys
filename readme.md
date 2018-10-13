@@ -6,6 +6,9 @@ on https://music.yandex.ru/ and https://radio.yandex.ru/
 It does not use any special permissions.
 Chrome provides ability to set media hot keys globally for extensions.
 
+Google Chrome Store page:
+https://chrome.google.com/webstore/detail/yamusic-hotkeys/kgflhbcgmphgihmimmlljjjajdigahpf
+
 ## Hot keys list
 
 * Play previous track
@@ -33,6 +36,7 @@ Chrome provides ability to set media hot keys globally for extensions.
 
 * https://github.com/berrberr/streamkeys
 * https://github.com/hatboysam/mediakeys
+* https://chrome.google.com/webstore/detail/%D1%8F%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0/kefiofndeiobnlbabkhfkfmgdhmhhfmc?hl=ru
 
 ## Licence
 
