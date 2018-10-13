@@ -28,19 +28,19 @@
   "commands": {
     "prev-track": {
       "suggested_key": {
-        "default": "Ctrl+PageUp"
+        "default": "MediaPrevTrack"
       },
       "description": "Play previous track"
     },
     "pause-track": {
       "suggested_key": {
-        "default": "Ctrl+End"
+        "default": "MediaPlayPause"
       },
       "description": "Pause/Unpause track"
     },
     "next-track": {
       "suggested_key": {
-        "default": "Ctrl+PageDown"
+        "default": "MediaNextTrack"
       },
       "description": "Play next track"
     }
