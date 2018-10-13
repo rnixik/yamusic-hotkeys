@@ -24,6 +24,7 @@
         if (!msg.command) {
         	return;
 		}
+		console.log("Command from hotkeys: ", msg.command);
 		switch (msg.command) {
 			case COMMAND_PREV_TRACK:
             	clickSelector(window.HOTKEYS_SELECTOR_PREV_TRACK);
