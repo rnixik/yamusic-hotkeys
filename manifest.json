@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "name": "Ya.Music Hotkeys",
-  "description": "This extension will enable hotkeys for Ya.Music",
-  "version": "1.0.1",
+  "description": "This extension will enable hot keys for Ya.Music",
+  "version": "1.0.2",
   "background": {
     "scripts": [
       "background.js"
