@@ -24,7 +24,7 @@ https://chrome.google.com/webstore/detail/yamusic-hotkeys/kgflhbcgmphgihmimmlljj
 ## How to edit hot keys
 
 1. Install this extension
-2. Go to `Shortcuts` in menu at Extensions or use url `chrome://extensions/shortcuts`
+2. Go to `Shortcuts` in menu at Extensions or use url [chrome://extensions/shortcuts](chrome://extensions/shortcuts)
 
 ## Useful links for development
 
