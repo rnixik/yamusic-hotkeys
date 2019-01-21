@@ -1,5 +1,5 @@
-(function() {
-	'use strict';
+(function () {
+    'use strict';
 
     const PORT_NAME = 'music-hotkeys-port';
 
@@ -13,22 +13,22 @@
         }
         const element = document.querySelector(selector);
         if (!element) {
-        	console.warn(`Selector '${selector}' not found to click`);
-        	return;
-		}
+            console.warn(`Selector '${selector}' not found to click`);
+            return;
+        }
         element.click();
-	}
+    }
 
     const port = chrome.runtime.connect({name: PORT_NAME});
     port.onMessage.addListener((msg) => {
         if (!msg.command) {
-        	return;
-		}
-		console.log("Command from hotkeys: ", msg.command);
-		switch (msg.command) {
-			case COMMAND_PREV_TRACK:
-            	clickSelector(window.HOTKEYS_SELECTOR_PREV_TRACK);
-            	break;
+            return;
+        }
+        console.log("Command from hotkeys: ", msg.command);
+        switch (msg.command) {
+            case COMMAND_PREV_TRACK:
+                clickSelector(window.HOTKEYS_SELECTOR_PREV_TRACK);
+                break;
             case COMMAND_PAUSE_TRACK:
                 clickSelector(window.HOTKEYS_SELECTOR_PAUSE_TRACK);
                 break;

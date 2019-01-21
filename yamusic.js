@@ -1,5 +1,5 @@
-(function() {
-	'use strict';
+(function () {
+    'use strict';
 
     window.HOTKEYS_SELECTOR_PREV_TRACK = '.player-controls .player-controls__btn_prev';
     window.HOTKEYS_SELECTOR_PAUSE_TRACK = '.player-controls .player-controls__btn_play';

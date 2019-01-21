@@ -1,4 +1,4 @@
-(function() {
+(function () {
     'use strict';
 
     const PORT_NAME = 'music-hotkeys-port';
@@ -25,6 +25,6 @@
         if (!messagePort) {
             return;
         }
-        messagePort.postMessage({ command });
+        messagePort.postMessage({command});
     });
 })();
