@@ -26,6 +26,8 @@ https://chrome.google.com/webstore/detail/yamusic-hotkeys/kgflhbcgmphgihmimmlljj
 1. Install this extension
 2. Go to `Shortcuts` in menu at Extensions or use url [chrome://extensions/shortcuts](chrome://extensions/shortcuts)
 
+Sometimes media keys are bound by system applications. To use them in chrome you need unbind them in system.
+
 ## Useful links for development
 
 * How to declare hotkeys: https://developer.chrome.com/apps/commands 
